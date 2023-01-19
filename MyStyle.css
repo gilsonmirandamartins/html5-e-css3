@@ -95,12 +95,19 @@ p{
 
 h3{
     font-family: var(--fontAndroid);
-    padding: 0px 0px 0px 15px;
+    padding: 5px 0px 5px 15px;
+    background-image: linear-gradient(to right, var(--color3), #ffffff);
 
 }
 
 img{
     width: 100%;
+}
+
+img.mg1{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 

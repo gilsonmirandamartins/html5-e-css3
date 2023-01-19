@@ -24,15 +24,18 @@
 }
 
 body{
+
     background-color: darkkhaki;
 }
 
 header{
+
     background-image: linear-gradient(to top, var(--color1), var(--color2), var(--color3), var(--color4), var(--color5));
     margin: auto;
 }
 
 h1{
+
     padding: 50px 0px 35px 0px;
     text-align: center;
     font-size: 52px;  
@@ -55,6 +58,7 @@ div.by1{
 }
 
 a{
+
     color: rgba(255, 255, 255, 0.671);
     text-decoration: none;
     padding: 10px 10px 10px 10px;
@@ -73,20 +77,24 @@ a:hover{
 }
 
 main{
-
+    
     background-color: whitesmoke;
     margin: auto;
+    margin-bottom: 10px;
     max-width: 1000px;
     min-height: 320px;
+    border-radius: 0px 0px 10px 10px;
 
 }
 
 h2{
+
     padding: 20px 0px 10px 20px;
     font-size: 30px;
 }
 
 p{
+
     font-weight: 500;
     font-size: 17px;
     text-indent: 30px;
@@ -95,6 +103,7 @@ p{
 }
 
 h3{
+
     font-family: var(--fontAndroid);
     padding: 5px 0px 5px 15px;
     background-image: linear-gradient(to right, var(--color3), #ffffff);
@@ -102,16 +111,19 @@ h3{
 }
 
 img{
+
     width: 100%;
 }
 
 img.mg1{
+
     width: 50%;
     display: block;
     margin: auto;
 }
 
 div.vid1{
+
     height: 550px;
     width: 100%;
     margin: auto;
@@ -120,10 +132,42 @@ div.vid1{
 
 iframe{
     
-
     padding: 20px 0px 20px 0px;
     display: block;
     margin: auto;
+}
+
+div.section1{
+
+    padding: 15px;
+    
+}
+
+div.section2{
+    background-color: #5aaf388a;
+    border-radius: 0px 0px 10px 10px;
+}
+
+p.article{
+
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 19px;
+    background-color: #1f6404;
+    color: white;
+}
+
+ul{
+    padding-left: 20px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+p.footer{
+    font-size: 15px;
+    background-color: #1f6404;
+    text-align: center;
+    padding: 0px;
 }
 
 

@@ -86,6 +86,8 @@ a:hover{
 
 main{
     
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: whitesmoke;
     margin: auto;
     margin-bottom: 10px;
